@@ -1,0 +1,15 @@
+Algoritimo<troca>
+Var
+caractere v1,v2,t1,t2
+Inicio
+escreva("Digite um valor para A:")
+leia(v1)
+escreva("Digite um valor para B:")
+leia(v2)
+t1 <- v1
+t2 <- v2
+v1 <-t2
+v2 <- t1
+Escreva("O atual Valor de A é:",v1,"e o atual valor de B é:",v2)
+
+FIm
