@@ -1,0 +1,23 @@
+Algoritimo<notas>
+Var
+caractere nome
+real n1,n2,n2,media 
+
+Inicio
+
+escreva("Digite seu nome":)
+leia(nome"
+escreva("Digite a primeira nota")
+leia(n1)
+
+escreva("Digite a segunda nota")
+leia(n2)
+
+escreva("Digite a terceira nota")
+leia(n3)
+
+media <- (n1+n2+n3)/3
+
+escreva("Aluno:",nome,"Sua media é:",media)
+
+Fim
