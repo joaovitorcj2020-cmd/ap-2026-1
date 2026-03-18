@@ -1,0 +1,14 @@
+Algoritimo <Conversão>
+Var
+cel,fahr real
+
+Inicio
+
+escreva("Digite a temperatura em Celsius:");
+leia(cel);
+
+fahr <- (9*cel+160) / 5;
+
+escreva("O valor convertido agora corresponde a ",fahr,"°F);
+
+Fim

@@ -1,0 +1,14 @@
+Algoritimo<rendimento>
+Var
+real vi,vt
+
+Inicio
+Escreva("Informe o valor " );
+leia(vi);
+
+vt <- vi+(vi*0,7);
+
+Escreva("O valor com
+rendimento após um mês é de R$",vt);
+
+Fim

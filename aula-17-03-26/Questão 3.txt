@@ -1,0 +1,15 @@
+Algoritimo<Dolar>
+Var
+dolar,rea,conv real
+
+Inicio
+Escreva("Informe o valor em reais:")
+leia(rea)
+Escreva("Informe o atual valor do dolar:")
+leia(dolar)
+
+conv <- rea/dolar
+
+Escreva("O valor R$",rea,",convertido para dolar é :US$",conv);
+
+Fim

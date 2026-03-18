@@ -1,0 +1,17 @@
+Algoritimo <ConsumoVeiculos>
+Var
+real dist,combg,media
+
+Inicio
+
+Escreva("Informe a distancia total percorrida pelo automovel(em km):");
+Leia(dist);
+
+Escreva("Informe o total gasto de gasolina(em litros):");
+Leia(combg);
+
+media <- dist/combg;
+
+Escreva("A media de gasolina gasta por quilometros percorridos é de",media,"km/L");
+
+Fim
