@@ -1,0 +1,15 @@
+Algoritimo<carro>
+VAr
+real cf,cc,impostos
+
+Inicio
+
+Escreva("Informe o custo de fabrica do carro:");
+leia(cf)
+
+impostos <- cf+(cf*0,45)
+cc <- impostos+(impostos*0,28)
+
+Escreva("O custo de consumidor é:R$",cc)
+
+Fim

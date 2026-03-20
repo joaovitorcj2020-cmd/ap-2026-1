@@ -1,0 +1,40 @@
+Algoritimo<numeros>
+Var
+inteiro v1,v2
+
+Inicio
+Escreva("Digite o primeiro numero:")
+leia(v1)
+
+Escreva("Digite o segundo numero:")
+leia(v2)
+
+se(v1 > v2){
+
+escreva("O primeiro valor ",v1,"é maior que o segundo valor:",v2)
+se(v1>=1 e v1<=99){
+escreva("O valor esta no intervalo de 1 a 99")
+} 
+se senao(v1>=100 e v1<=199){
+escreva("O valor esta no intervalo de 100 a 199")
+}
+se senao(v1>=200){
+escreva("O valor é maior ou igual a 200")
+}
+
+senao{
+escreva("O segundo valor ",v2,"é maior que o primeiro valor:",v1)
+
+se(v2>=1 e v2<=99){
+escreva("O valor esta no intervalo de 1 a 99")
+} 
+
+se senao(v2>=100 e v2<=199){
+escreva("O valor esta no intervalo de 100 a 199")
+}
+se senao(v2>=200){
+
+escreva("O valor é maior ou igual a 200")
+}
+}
+ }
