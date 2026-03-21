@@ -1,0 +1,18 @@
+algoritimo<idade>
+    Var
+    inteiro idade 
+Inicio
+    para (inteiro i = 0; i <= 75; i++)  
+{  
+  escreva("Informe a idade:")
+  leia(idade)
+se(idade<18)   {
+  escreva("Menor de Idade\n")
+}senao se(idade>=18 e idade<60){
+  escreva("Maior de idade\n")
+}senao se(idade>=60){
+  escreva("Idoso\n")
+}
+}  
+  
+Fim
