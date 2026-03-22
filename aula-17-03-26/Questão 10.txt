@@ -1,0 +1,44 @@
+Algoritimo <Tabuada>
+   Var
+   inteiro i, resultado, n, t
+   caracter o
+   
+Inicio
+ escreva("Digite o valor de N: ")
+        leia(N)
+
+        escreva("Digite o operador (S = soma, M = multiplicação, D = divisão, Sub = subtração): ")
+        leia(O)
+
+        escreva("Digite o valor de T: ")
+        leia(T)
+
+para (i=1;i<=T;i++){
+            se (O == 'S' ou O == 's')
+            {
+                resultado = N + i
+                escreva(N, " + ", i, " = ", resultado, "\n")
+            }
+            senao se (O == 'M' ou O == 'm')
+            {
+                resultado = N * i
+                escreva(N, " * ", i, " = ", resultado, "\n")
+            }
+            senao se (O == 'D' ou O == 'd')
+            {
+                resultado = N / i
+                escreva(N, " / ", i, " = ", resultado, "\n")
+            }
+            senao se (O == 'Sub' ou O == 'sub')
+            {
+                resultado = N - i
+                escreva(N, " - ", i, " = ", resultado, "\n")
+            }
+            senao
+            {
+                escreva("Operador inválido!\n")
+                pare
+            }
+}
+
+Fim

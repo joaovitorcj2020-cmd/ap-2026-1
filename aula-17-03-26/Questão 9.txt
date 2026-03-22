@@ -1,0 +1,42 @@
+Algoritimo<concessionaria>
+        Var
+        inteiro ano, contador = 0, total_carros = 0
+        real valor, desconto, valorf
+        caracter opcao
+        
+        Inicio
+        faca
+        {
+            escreva("Digite o valor do carro: ")
+            leia(valor)
+
+            escreva("Digite o ano do carro: ")
+            leia(ano)
+
+            se (ano <= 2010)
+            {
+                desconto = valor * 0.12
+                contador = contador + 1
+            }
+            senao
+            {
+                desconto = valor * 0.07
+            }
+
+            valorf = valor - desconto
+
+            escreva("\nValor do desconto: ", desconto)
+            escreva("\nValor a pagar: ", valorf, "\n")
+
+            total_carros = total_carros + 1
+
+            escreva("\nDeseja continuar? (S/N): ")
+            leia(opcao)
+
+        } enquanto (opcao != 'N' e opcao != 'n')
+
+        escreva("\nTotal de carros atÃ© 2010: ", contador)
+        escreva("\nTotal geral de carros: ", total_carros)
+    }
+}
+  Fim
